@@ -1,0 +1,36 @@
+{
+	"name": "idea/framework",
+	"description": "The idea framework!",
+	"type": "project",
+	"homepage": "http://ideait.net",
+	"keywords": [
+		"PHP",
+		"Framework",
+		"MVC",
+		"Simple"
+	],
+	"authors": [
+        {
+            "name": "Alan",
+            "email": "20874823@qq.com",
+            "homepage": "http://ideait.net",
+            "role": "Developer"
+        }
+    ],
+    "license": "MIT",
+	"require": {
+		"php": ">=5.3",
+		"filp/whoops":"*",
+		"symfony/debug": "^3.1",
+		"symfony/var-dumper": "^3.1"
+	},
+    "config": {
+        "vendor-dir": "application/vendor"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
