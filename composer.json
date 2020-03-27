@@ -19,7 +19,7 @@
     ],
     "license": "MIT",
 	"require": {
-		"php": ">=5.3",
+		"php": ">=5.4",
 		"filp/whoops":"*",
 		"symfony/debug": "^3.1",
 		"symfony/var-dumper": "^3.1"
